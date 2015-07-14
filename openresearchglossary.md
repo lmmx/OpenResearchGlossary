@@ -134,7 +134,7 @@ This glossary is designed to to be a resource to help inform people about the cu
 
 * **Author Addendum** - An author addendum is a supplemental or added agreement to a publishing contract that defines or changes the terms of the contract, often focusing on the transfer of copyright ownership. For authors of scholarly works, an author addendum to a publisher's standard publication contract may be necessary to help ensure that authors protect important rights, such as the right to post their articles online to a personal website or in a digital repository; the right to use their works within a classroom setting; or the right to use their works as the foundation for future research. ([Source](http://library.pitt.edu/oscp/glossary))
 
-## JOURNAL TYPES
+## Journal types
 
 * **Megajournal** - a journal with editorial criteria based on scientific soundness instead of a priori estimated newsworthiness or 'impact'.
 
@@ -148,7 +148,7 @@ This glossary is designed to to be a resource to help inform people about the cu
 
 * **Library-based publishing** - Many academic libraries are now beginning to act as publishers for scholarly works produced in their institutions and elsewhere.  In some cases, the library works with the university scholarly press to publish works. In other cases, the library publishes works independently or separately from the academic press. Library-based publishers are often strongly in favor of Open Access. ([Library Publishing Coalition](http://www.librarypublishing.org))
 
-## PEER REVIEW
+## Peer review
 
 * **Peer review** - a process by which a research article is vetted by experts in community before publication. ([Sense About Science](http://www.senseaboutscience.org/pages/peer-review.html))
 
@@ -166,7 +166,7 @@ This glossary is designed to to be a resource to help inform people about the cu
 
 * **Registered Reports** - A type of publication in which peer review of the suggested method is completed prior to data collection and analysis. Accepted papers then are guaranteed publication in the journal if the authors follow through with the registered methodology ([Source](https://osf.io/8mpji/wiki/home/))
 
-## ASSESSMENT AND METRICS
+## Assessment and metrics
 
 * **Altmetrics** - Altmetrics are alternative ways of recording and measuring the use and impact of scholarship. Rather than solely counting the number of times a work is cited in scholarly literature, alternative metrics also measure and analyze social media (e.g., Facebook, Twitter, blogs, wikis, etc.), document downloads, links to publishing and unpublished research, and other uses of research literature, in order to provide a more comprehensive measurement of scholarships reach and impact. ([Source)](http://library.pitt.edu/oscp/glossary)
 
@@ -324,7 +324,7 @@ This glossary is designed to to be a resource to help inform people about the cu
 
 * **Department of Energy (DOE)** - A federal agency addressing US energy, environment, and nuclear challenges. [(Public Access Policy)](http://www.energy.gov/downloads/doe-public-access-plan)
 
-***OPEN COMMUNITY EVENTS*** 
+## Open community events
 
 * **Open Science meetups** - [London, UK](http://science.okfn.org/london-open-research/) (Open Research London); [London, UK](https://twitter.com/LDNOpenDrinks) (London Open Drinks); [Oxford, UK](http://science.okfn.org/oxford-open-science/); [Cambridge, UK](http://science.okfn.org/cambridge-open-research/); [Chicago, Illinois](https://twitter.com/CHIOpenDrinks); [Washington DC](https://twitter.com/DCOpenDrinks) (DC Open Drinks); [Washington DC](http://www.meetup.com/Open-Data-Leaders/) (Open Data Meetup); [New York City, NYC](https://twitter.com/NYOpenDrinks); [San Francisco, California](https://twitter.com/SFOpenDrinks).
 
@@ -336,13 +336,13 @@ This glossary is designed to to be a resource to help inform people about the cu
 
 * **SpotOn London** - Conference for science, policy, and online tools. ([Source](http://www.nature.com/spoton/))
 
-***OPEN COMMUNICATION CHANNELS***
+## Open communication channels
 
 * **Open Knowledge-run Open Science mailing list** ([link](https://lists.okfn.org/mailman/listinfo/open-science))
 
 * **Science Communication Forum mailing list (Imperial College London)** ([link](https://mailman.ic.ac.uk/mailman/listinfo/scicommforum-list))
 
-***MISCELLANEOUS***
+## Miscellaneous
 
 * **Open Access Movement (OAM)** - a global movement started in the late 1990s and early 2000s fuelled by the widespread public access to the World Wide Web. Its prime objective is the free and unrestricted access and reuse of the world's knowledge.
 
@@ -394,7 +394,7 @@ This glossary is designed to to be a resource to help inform people about the cu
 
 * **Double-dipping** - In the context of Open Access, double-dipping occurs when a journal has an article processing charge (APC) for publishing an author's work, as well as requiring payment (usually through a subscription fee) by the potential user of the work. This model makes the institution or author pay twice to access the work. ([Source](http://openaccess.ox.ac.uk/glossary/))
 
-***SOURCES***
+## Sources
 
 * **Google Scholar** - a freely accessible search engine for indexing the scholarly literature across an array of publishing formats and disciplines. ([Source](http://scholar.google.co.uk/))
 
@@ -426,7 +426,7 @@ This glossary is designed to to be a resource to help inform people about the cu
 
 * **Center for Open Science** - A non-profit organization that works in a variety of ways to increase openness, reproducibility, and integrity in science. Resources for scientists, journals, and developers are listed below. (Tools, grants, badges, registered reports) ([Source](http://centerforopenscience.org/involved_participate/))
 
-***RESOURCES***
+# Resources
 
 * Information about worldwide research funders and institutions that fund open access article processing charges: [http://www.nature.com/authors/open_access/funding.html](http://www.nature.com/authors/open_access/funding.html).
 
@@ -464,8 +464,10 @@ This glossary is designed to to be a resource to help inform people about the cu
 
 * **Open Science Stack Exchange** - question and answer site for scientists interested in openly sharing their research ([Source](http://area51.stackexchange.com/proposals/65426/open-science?referrer=99NIKeT_Q-KlvQRFh5DO2w2))
 
+# Acknowledgements
+
 Created by [Jon Tennant](https://twitter.com/Protohedgehog/) and [Ross Mounce](https://twitter.com/rmounce). This material is licensed under a [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) attribution license. We strongly encourage the distribution and re-use of this material.
 
-**Additional contributors:**
+### Additional contributors
 
-[Richard Iannone](https://twitter.com/riannone), [Chealsye Bowley](https://twitter.com/chealsye), [Martin Poulter](http://infobomb.org/), [Matt Hall](https://twitter.com/kwinkunks), [Priscilla Ulguim](https://twitter.com/priscillaulguim), [Lou Woodley](https://twitter.com/LouWoodley), [Sibele Fausto](https://twitter.com/sibelefausto), [Nazeefa Fatima](https://twitter.com/NazeefaFatima), [Karen Cranston](http://twitter.com/kcranstn), [Lauren B. Collister](http://twitter.com/parnopaeus), [Alasdair Taylor](https://twitter.com/awtaylor83), [Matt Menzenski](https://twitter.com/menzenski), [Patricia Herterich](https://twitter.com/PHerterich).
+[Richard Iannone](https://twitter.com/riannone), [Chealsye Bowley](https://twitter.com/chealsye), [Martin Poulter](http://infobomb.org/), [Matt Hall](https://twitter.com/kwinkunks), [Priscilla Ulguim](https://twitter.com/priscillaulguim), [Lou Woodley](https://twitter.com/LouWoodley), [Sibele Fausto](https://twitter.com/sibelefausto), [Nazeefa Fatima](https://twitter.com/NazeefaFatima), [Karen Cranston](http://twitter.com/kcranstn), [Lauren B. Collister](http://twitter.com/parnopaeus), [Alasdair Taylor](https://twitter.com/awtaylor83), [Matt Menzenski](https://twitter.com/menzenski), [Patricia Herterich](https://twitter.com/PHerterich), [Louis Maddox](http://twitter.com/biochemistries).
