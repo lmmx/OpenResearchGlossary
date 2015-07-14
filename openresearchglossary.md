@@ -471,7 +471,7 @@ Created by [Jon Tennant](https://twitter.com/Protohedgehog/) and [Ross Mounce](h
 ## Additional contributors
 
 * Richard Iannone, [@riannone](https://twitter.com/riannone)
-* Chealsye Bowley, [chealsye](https://twitter.com/chealsye)
+* Chealsye Bowley, [@chealsye](https://twitter.com/chealsye)
 * Martin Poulter, [@mlpoulter](https://twitter.com/mlpoulter)
 * Matt Hall, [@kwinkunks](https://twitter.com/kwinkunks)
 * Priscilla Ulguim, [@priscillaulguim](https://twitter.com/priscillaulguim)
