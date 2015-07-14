@@ -62,8 +62,6 @@ This glossary is designed to to be a resource to help inform people about the cu
 
 * **Scholarly Communication** - The creation, transformation, dissemination, and preservation of knowledge related to teaching, research, and scholarly endeavors; the process of academics, scholars and researchers sharing and publishing their research findings so that they are available to the wider academic community. The creation, transformation, dissemination, and preservation of knowledge related to teaching, research, and scholarly endeavors; the process of academics, scholars and researchers sharing and publishing their research findings so that they are available to the wider academic community. (Sources: [Wikipedia](http://en.wikipedia.org/wiki/Scholarly_communication), [University of Pittsburgh](http://library.pitt.edu/oscp/glossary#oscp_glossary-page-77))
 
-## Types of open access
-
 * **Preprint** - a manuscript draft that has not yet been subject to formal peer review, distributed to receive early feedback on research from peers.
 
 * **Post-print** - a manuscript draft after it has been peer reviewed (rarely used).
@@ -76,7 +74,9 @@ This glossary is designed to to be a resource to help inform people about the cu
 
 * **Eprint** - a digital version of a research document available online for a repository.
 
-### Depreciated terms, the use of which is not encouraged as they are typically poorly-understood:
+## Types of open access
+
+> Note: These are deprecated terms, i.e. their use is not encouraged as they are typically poorly-understood
 
 * **Green OA** - making a version of the manuscript freely available in a repository. 
 
