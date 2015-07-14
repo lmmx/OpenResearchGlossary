@@ -254,7 +254,7 @@ This glossary is designed to to be a resource to help inform people about the cu
 
 * **Open Archives Initiative** - Supplies a common framework to web communities that allows them to gain access to content in a standard manner by means of metadata harvesting. ([Source](http://openarchives.org/OAI)) 
 
-***DATA REPOSITORIES*** 
+## Data repositories
 
 * **Dryad** - a curated resource that makes the data underlying scientific publications discoverable, freely reusable, and citable. ([Source](http://datadryad.org/))
 
@@ -288,7 +288,7 @@ This glossary is designed to to be a resource to help inform people about the cu
 
 * **Databib** - a searchable registry of research data repositories (S[ource](http://databib.org/)) [Note that the Databib and re3data.org registries will merch by the end of 2015]
 
-***FUNDERS AND POLICY-RELATED***
+## Funders and policy-related
 
 * **Publicly funded research** - refers to research which is, at least in part, funded by Governments, often through Research Councils.
 
