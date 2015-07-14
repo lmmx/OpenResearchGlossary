@@ -468,6 +468,19 @@ This glossary is designed to to be a resource to help inform people about the cu
 
 Created by [Jon Tennant](https://twitter.com/Protohedgehog/) and [Ross Mounce](https://twitter.com/rmounce). This material is licensed under a [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) attribution license. We strongly encourage the distribution and re-use of this material.
 
-### Additional contributors
+## Additional contributors
 
-[Richard Iannone](https://twitter.com/riannone), [Chealsye Bowley](https://twitter.com/chealsye), [Martin Poulter](http://infobomb.org/), [Matt Hall](https://twitter.com/kwinkunks), [Priscilla Ulguim](https://twitter.com/priscillaulguim), [Lou Woodley](https://twitter.com/LouWoodley), [Sibele Fausto](https://twitter.com/sibelefausto), [Nazeefa Fatima](https://twitter.com/NazeefaFatima), [Karen Cranston](http://twitter.com/kcranstn), [Lauren B. Collister](http://twitter.com/parnopaeus), [Alasdair Taylor](https://twitter.com/awtaylor83), [Matt Menzenski](https://twitter.com/menzenski), [Patricia Herterich](https://twitter.com/PHerterich), [Louis Maddox](http://twitter.com/biochemistries).
+* Richard Iannone, [@riannone](https://twitter.com/riannone)
+* Chealsye Bowley, [chealsye](https://twitter.com/chealsye)
+* Martin Poulter, [@mlpoulter](https://twitter.com/mlpoulter)
+* Matt Hall, [@kwinkunks](https://twitter.com/kwinkunks)
+* Priscilla Ulguim, [@priscillaulguim](https://twitter.com/priscillaulguim)
+* Lou Woodley, [@LouWoodley](https://twitter.com/LouWoodley)
+* Sibele Fausto, [@sibelefausto](https://twitter.com/sibelefausto)
+* Nazeefa Fatima, [@NazeefaFatima](https://twitter.com/NazeefaFatima)
+* Karen Cranston, [@kcranstn](http://twitter.com/kcranstn)
+* Lauren B. Collister, [@parnopaeus](http://twitter.com/parnopaeus)
+* Alasdair Taylor, [@awtaylor83](https://twitter.com/awtaylor83)
+* Matt Menzenski, [@menzenski](https://twitter.com/menzenski)
+* Patricia Herterich, [@PHerterich](https://twitter.com/PHerterich)
+* Louis Maddox, [@biochemistries](http://twitter.com/biochemistries)
