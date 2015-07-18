@@ -11,9 +11,9 @@ html {
     text-shadow: none;
 }
 
-::selection {
-    background: #b3d4fc;
+ul#contrib-list {
     text-shadow: none;
+    padding-left: 85px;
 }
 
 hr {
@@ -154,29 +154,152 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+nav a {
+    min-width: 108px !important;
+}
+
+ a {
+     text-decoration: none;
+ }
+ dt {
+     font-size: 150%;
+ }
+
+a.src-page img, a.wiki-page img {
+    margin-left: -65px;
+    margin-top: -10px;
+    position: absolute;
+    height: 25px;
+    border: 10px solid transparent;
+}
+
+a.wiki-page img {
+    margin-left: -70px;
+}
+
+a.src-page.has-wiki-page img {
+    margin-left: -116px;
+}
+
+#contrib-list a.tw-icon img {
+    position: absolute;
+    border-radius: 200px;
+    width: 50px;
+    height: 50px;
+    margin-left: -77px;
+}
 
 
+a.ackn-p img {
+    border-radius: 200px;
+    width: 130px;
+    height: 130px;
+}
 
+a[tw-handle="@Protohedgehog"] img {
+    float: left;
+}
 
+a[tw-handle="@rmounce"] img {
+    float: right;
+}
 
+#contrib-list li, #glossary-list, dl {
+    list-style-type: none;
+}
 
+#contrib-list {
+    font-size: 150%;
+    line-height: 2.5;
+}
 
+p#ackn-p a.tw-icon::after {
+    content: attr(tw-handle);
+    position: absolute;
+    font-size: 14px;
+    font-family: monospace;
+    margin-left: 20px;
+    margin-top: 150px;
+}
 
+#contributors {
+    padding-top: 40px;
+}
 
-
-
-
-
+#splittable {
+        width: 200px !important;
+    }
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+/* Default is used with the narrowest screen, before min-width kicks in */
+
+p#ackn-p {
+    margin-top: 171px;
+    margin-left: initial;
+    margin-right: initial;
+}
+
+#contrib-list a.tw-icon::after {
+    content: attr(tw-handle);
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 33px;
+    font-size: 14px;
+    font-family: monospace;
+}
 
 @media only screen and (min-width: 480px) {
+ 
 
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
+
+    a.tw-icon.ackn-p::after {
+        content: attr(tw-handle);
+        position: absolute;
+        margin-left: -120px;
+        margin-top: 155px;
+        font-size: 14px;
+        font-family: monospace;
+    }
+
+    a.tw-icon.ackn-p[tw-handle="@rmounce"]::after {
+        margin-left: 330px;
+    }
+
+    a.tw-icon.ackn-p::before {
+        position: absolute;
+        margin-top: 135px;
+        font-style: italic;
+        color: black;
+    }
+
+    a.tw-icon.ackn-p[tw-handle="@Protohedgehog"]::before {
+        content: "Jon Tennant";
+        margin-left: 25px;
+    }
+
+    a.tw-icon.ackn-p[tw-handle="@rmounce"]::before {
+        content: "Ross Mounce";
+        float: right;
+    }
+
+    #contrib-list a.tw-icon::after {
+        content: attr(tw-handle);
+        position: absolute;
+        margin-left: 230px;
+        margin-top: 10px;
+    }
+
+    p#ackn-p {
+        margin-left: 140px;
+        margin-right: 140px;
+    
+        margin-top: initial;
+}
 
     nav a {
         float: left;
@@ -226,6 +349,7 @@ nav a:hover {
 
     .title {
         float: left;
+        margin-top: 97px;
     }
 
     nav {
