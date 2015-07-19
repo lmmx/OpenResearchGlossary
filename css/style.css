@@ -1,0 +1,136 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+nav a {
+    min-width: 108px !important;
+}
+
+#logo-container {
+    left: initial;
+    right: 0;
+}
+
+ a {
+     text-decoration: none;
+ }
+ dt {
+     font-size: 150%;
+ }
+
+a.src-page img, a.wiki-page img {
+    margin-left: -65px;
+    margin-top: -6px;
+    position: absolute;
+    height: 45px;
+    border: 10px solid transparent;
+}
+
+a.wiki-page img {
+    margin-left: -70px;
+}
+
+a.src-page.has-wiki-page img {
+    margin-left: -116px;
+}
+
+#contrib-list a.tw-icon img {
+    border-radius: 200px;
+    width: 50px;
+    height: 50px;
+}
+
+
+a.ackn-p img {
+    border-radius: 200px;
+    max-width: 130px;
+    max-height: 130px;
+}
+
+a[tw-handle="@Protohedgehog"] img {
+    margin-left: 5%;
+}
+
+a[tw-handle="@rmounce"] img {
+    margin-right: 5%;
+}
+
+#contrib-list li, #glossary-list, dl {
+    list-style-type: none;
+}
+
+#contrib-list {
+    font-size: 150%;
+    line-height: 2.5;
+    padding-left: 80px;
+}
+
+p#ackn-p a.tw-icon::after {
+    content: attr(tw-handle);
+    position: absolute;
+    font-size: 14px;
+    font-family: monospace;
+    margin-left: 20px;
+    margin-top: 150px;
+}
+
+#contributors {
+    padding-top: 80px;
+}
+
+#splittable {
+        width: 200px !important;
+    }
+
+.card-panel.materialize-red a {
+color: rgb(255, 222, 161);
+}
+
+.row.acknowledgement-card {
+    display: inline;
+}
+
+.acknowledgement-card a {
+    color: #FF5959;
+}
+
+ul#contrib-list {
+    -moz-columns: 250px 3;
+    -webkit-columns: 250px 3;
+    column-count: 3;
+    column-width: 250px;
+    padding-left: 0px;
+    min-width: 300px;
+}
+
+nav {
+    height: 161px;
+}
+
+h1#open-glossary {
+    position: absolute;
+    top: 1px;
+    color: white;
+    margin-right: 213px;
+}
+
+span.twname {
+    position: relative;
+    bottom: 16px;
+    left: 13px;
+}
+
+ul#contrib-list {
+    margin-left: 8%;
+}
