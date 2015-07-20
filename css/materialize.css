@@ -2090,8 +2090,12 @@ img.responsive-img, video.responsive-video {
     margin-right: -7px
   }
 
-  a.src-page.has-wiki-page img {
+  a.second-page img {
     margin-top: 30px;
+  }
+  a.gh-page.second-page img {
+    margin-top: 36px !important;
+    margin-right: -2px;
   }
 
   .pagination {
@@ -2167,20 +2171,11 @@ nav {
     padding-right: 45px;
   }
 
-  a[tw-handle="@Protohedgehog"] img {
-    margin-left: 15%;
-  }
-
-  a[tw-handle="@rmounce"] img {
-    margin-right: 20%;
-    float: right;
-  }
-
   a.src-page, a.wiki-page {
     direction: rtl !important;
   }
-  a.src-page.has-wiki-page img {
-    margin-top: 30px;
+  a.second-page img {
+    margin-top: 30px !important;
   }
   .hide-on-med-and-down {
     display: none !important; } }
@@ -2199,6 +2194,11 @@ nav {
     display: none !important; } }
 
 @media only screen and (min-width : 993px) {
+
+  footer div.container {
+    text-align: initial !important;
+  }
+
 
   h1#open-glossary {
       top: 21px !important;
@@ -5091,7 +5091,7 @@ span.badge {
   .container {
     width: 70%; } }
 
-.container .row {
+a.tw-icon.ackn-p {
   margin-left: -0.75rem;
   margin-right: -0.75rem; }
 
@@ -5193,8 +5193,11 @@ span.badge {
         width: 33.33333%;
         margin-left: 0; }
       .row .col.m5 {
-        width: 41.66667%;
-        margin-left: 0; }
+        width: 39.66667%;
+        margin-left: 0; 
+        padding-top: 14px; }
+    .acknowledgement-card.row .col.m5 {
+      width: 100% }
       .row .col.m6 {
         width: 50%;
         margin-left: 0; }
@@ -5555,6 +5558,9 @@ small {
     .flow-text {
       font-size: 1.512rem; } }
   @media only screen and (min-width: 780px) {
+    .row.acknowledgement-card .col.m5 {
+        width: 39.66667% !important;
+    }
     .flow-text {
       font-size: 1.536rem; } }
   @media only screen and (min-width: 810px) {

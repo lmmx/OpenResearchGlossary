@@ -37,11 +37,25 @@ a.src-page img, a.wiki-page img {
     border: 10px solid transparent;
 }
 
+a.src-page.alt-icon img {
+    height: 39px;
+    margin-top: -2px;
+    margin-left: -77px;
+}
+
+.wikimedia-page img {
+    border-width: 2px 10px !important;
+}
+
+.gh-page img {
+    border-width: 6px 10px !important;
+}
+
 a.wiki-page img {
     margin-left: -70px;
 }
 
-a.src-page.has-wiki-page img {
+a.second-page img {
     margin-left: -116px;
 }
 
@@ -56,14 +70,6 @@ a.ackn-p img {
     border-radius: 200px;
     max-width: 130px;
     max-height: 130px;
-}
-
-a[tw-handle="@Protohedgehog"] img {
-    margin-left: 5%;
-}
-
-a[tw-handle="@rmounce"] img {
-    margin-right: 5%;
 }
 
 #contrib-list li, #glossary-list, dl {
@@ -133,4 +139,84 @@ span.twname {
 
 ul#contrib-list {
     margin-left: 8%;
+}
+
+.img-holder {
+    width: 130px !important;
+    display: inline-block !important;
+}
+
+a.tw-icon.ackn-p {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    vertical-align: bottom;
+    padding: 0 30px;
+}
+
+span.img-cap-name {
+    margin: 0 auto;
+    display: table;
+}
+
+a.cc-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+img.warning {
+    width: 14px !important;
+    height: 14px !important;
+    margin-left: 8px;
+    margin-bottom: 7px;
+    margin-right: 4px;
+}
+
+span.warn::after {
+    content: "Deprecated: typically poorly understood";
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    font-family: monospace;
+    font-style: italic;
+    vertical-align: super;
+}
+
+ul#f1000, ul#oad-listings {
+    padding-left: 24px;
+}
+
+#f1000 li p {
+    font-weight: 500;
+}
+
+ul#oad-listings li {
+    list-style-type: circle;
+}
+
+#declarations-list img {
+    margin-top: -8px;
+    height: 38px;
+    margin-left: -59px;
+}
+
+#resource-list img {
+    margin-top: -8px;
+    height: 38px;
+    margin-left: -59px;
+}
+
+footer .footer-license img {
+    height: 24px;
+    opacity: 0.9;
+    margin: 0;
+    border: 0;
+    margin-bottom: -4px;
+}
+
+footer div.container {
+    text-align: center;
+}
+
+footer .footer-license {
+    margin-left: 4px;
 }
