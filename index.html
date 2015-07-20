@@ -12,10 +12,9 @@
 </head>
 <body>
   <nav class="materialize-red lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="img/r2r-logo.png" /></a>
+    <div class="nav-wrapper container"><a id="logo-container" href="http://righttoresearch.org/" class="brand-logo"><img src="img/r2r-logo.png" /></a>
     </div>
   </nav>
-
 
   <div class="container">
     <div class="section">
@@ -24,8 +23,15 @@
       <div class="row">
                 <article>
                   <h1 id="open-glossary">Open Research Glossary</h1>
-
-                  <p>This glossary is designed to to be a resource to help inform people about the culture of &lsquo;open scholarship&rsquo;, full of the most common terms and resources. Far more extensive listings to browse for specific categories (such as podcasts, events, blogs and discussion forums) can be found at the Open Access Directory: find some links to it in the <em>Resources</em> section below.</p>
+                  <div class="nav-wrapper search-bar">
+                    <form  class="z-depth-1" onsubmit="return false;">
+                      <div class="input-field">
+                        <input id="search" type="search" required oninput="FilterGlossary(this.value)" onsearch="FilterGlossary(this.value)">
+                        <label for="search"><i class="material-icons">search</i></label>
+                      </div>
+                    </form>
+                  </div>
+                  <p id="intro-guide" class="grey lighten-4 dark-grey-text">This glossary has been designed to inform people about the culture of &lsquo;open scholarship&rsquo; through its most common terms, and key <a href="#resources">resources</a>. For more listings &mdash; from podcasts to blogs &mdash; and the community events calendar, check out the <a href="#oad-listings-preamble">Open Access Directory</a>. <span id="social-links" class="z-depth-1">Follow the Right To Research Coalition on <a href="https://twitter.com/R2RC">Twitter</a> and <a href="https://www.facebook.com/righttoresearch">Facebook</a>.</span></p>
 
                   <ul id="glossary-list">
                     <li gloss-term="Accepted author manuscript" gloss-alpha="a" class="core-def"><dl><a class="term-perm" href="#accepted_author_manuscript" id="accepted_author_manuscript"><dt><dfn>Accepted author manuscript</dfn> (AAM)</dt></a><dd>the version of a manuscript that has been accepted by a publisher for publication.</dd></dl></li>
@@ -251,7 +257,7 @@
                     <li class="resource"><a class="src-page" href="http://www.lockss.org/"><img src="img/link-icon.png" /></a><p><strong>Lots of Copies Keep Stuff Safe (LOCKSS)</strong> provides libraries and publishers with low-cost, open source digital preservation tools to preserve and provide access to persistent and authoritative digital content.</p></li>
                     <li class="resource"><a class="src-page" href="http://www.gla.ac.uk/services/library/Research/openlockss/"><img src="img/link-icon.png" /></a><p><strong>OpenLOCKSS</strong>is a project to negotiate with UK open access publishers for permission to include their titles in LOCKSS. Funded by JISC and led by the University of Glasgow, UK.</p></li>
                     <li class="resource"><a class="src-page" href="https://www.clockss.org/clockss/Home"><img src="img/link-icon.png" /></a><p><strong>CLOCKSS</strong> is an archive for the long-term storage of Web-based scholarly publications.</p></li>
-                    <li class="resouce"><a class="src-page" href=""><img src="img/link-icon.png" /></a><p>The <strong>Open Access Directory</strong> is a compendium of lists about open access to science and scholarship. Please do take a visit, to find new resources, and to get involved (like most of these projects, the OAD is maintained by the community!).</p></li>
+                    <li class="resource" id="oad-listings-preamble"><a class="src-page" href="http://oad.simmons.edu/oadwiki/Main_Page"><img src="img/link-icon.png" /></a><p>The <strong>Open Access Directory</strong> is a compendium of lists about open access to science and scholarship. Please do take a visit, to find new resources, and to get involved (like most of these projects, the OAD is maintained by the community!).</p></li>
                     <ul id="oad-listings">
                       <li><a href="http://oad.simmons.edu/oadwiki/Audio_about_OA">Audio and podcasts</a>,</li>
                       <li><a href="http://oad.simmons.edu/oadwiki/Blogs_about_OA">Blogs on open access</a>,</li>
@@ -312,7 +318,7 @@
   <footer class="page-footer materialize-red lighten-1">
     <div class="footer-copyright">
       <div class="container">
-      Made with <a class="white-text" href="http://materializecss.com">Materialize</a> by <a class="white-text" href="https://twitter.com/biochemistries">Louis</a>, 2015 <a class="footer-license white-text" href="https://github.com/lmmx/OpenResearchGlossary"><img src="img/gh-icon.png" title="How's my driving?" alt="GitHub" /></a>
+      Made with <a class="white-text" href="http://materializecss.com">Materialize</a> by <a class="white-text" href="https://twitter.com/biochemistries">Louis</a>, 2015 <a class="footer-license white-text" href="https://github.com/lmmx/OpenResearchGlossary"><img src="img/gh-icon.png" title="How's my driving? Check out the source code on GitHub" alt="GitHub" /></a>
       </div>
     </div>
   </footer>
