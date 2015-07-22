@@ -6,6 +6,17 @@
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
+function toggleStuck(){
+  var stuck_body = document.querySelector('body.nav-stuck');
+  var is_stuck = !(stuck_body === null && typeof stuck_body === "object");
+  if (is_stuck) {
+    stuck_body.classList.remove('nav-stuck');
+  }
+  else {
+    document.querySelector('body').classList.add("nav-stuck");
+  }
+}
+
 function FilterGlossary(val) {
   
         var gloss_terms = document.querySelectorAll('li[gloss-term], li.declaration, li.resource, ul#oad-listings li');
@@ -53,4 +64,23 @@ function FilterGlossary(val) {
           document.querySelector('#resources').classList.remove('search-hidden');
         }
 
+        // Check if there were no search results
+
+        var has_results = document.querySelector('li[gloss-term]:not(.search-hidden), li.declaration:not(.search-hidden), li.resource:not(.search-hidden), ul#oad-listings li:not(.search-hidden)');
+        var not_found_panel = document.querySelector('#search-fail-panel');
+        if (has_results === null && typeof has_results === "object") {
+          // there are no search results, so show a message
+          var not_found_link = not_found_panel.querySelector('a');
+          not_found_link.setAttribute('href', String(not_found_link.getAttribute('data-href-prefix')+val));
+          not_found_panel.classList.add('search-fail');
+        } else {
+          // there are search results, hide the message
+          not_found_panel.classList.remove('search-fail');
+        }
+}
+
+function clearSearch() {
+      var search_bar = document.getElementById('search')
+      search_bar.value = '';
+      FilterGlossary('');
 }
