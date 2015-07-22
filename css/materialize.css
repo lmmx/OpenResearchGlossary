@@ -2228,7 +2228,19 @@ h1#open-glossary {
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
   .hide-on-med-only {
-    display: none !important; } }
+    display: none !important; }
+
+  h1#open-glossary {
+    max-width: initial;
+    font-size: 3rem;
+    top: 10px !important;
+  }
+
+  .nav-stuck h1#open-glossary {
+    top: 0 !important;
+  }
+
+    }
 
 @media only screen and (min-width : 993px) {
 
@@ -2266,7 +2278,8 @@ h1#open-glossary {
 
 @media only screen and (max-width : 600px) {
   .center-on-small-only {
-    text-align: center; } }
+    text-align: center; }
+}
 
 footer.page-footer {
   margin-top: 20px;
@@ -5391,7 +5404,9 @@ nav {
         -moz-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
         -o-transform: translateX(-50%);
-        transform: translateX(-50%); */ } }
+        transform: translateX(-50%); */
+    }
+    }
     nav .brand-logo.right {
       right: 0.5rem;
       padding: 0; }
@@ -5407,7 +5422,7 @@ nav {
       padding: 0; }
       nav ul li:hover, nav ul li.active {
         background-color: rgba(0, 0, 0, 0.1); }
-    nav ul a {
+   nav a {
       font-size: 1rem;
       color: #fff;
       display: block;
@@ -5736,7 +5751,7 @@ small {
     #toast-container {
       min-width: 30%;
       left: 5%;
-      bottom: 7%; } }
+      bottom: 7%; }}
   @media only screen and (min-width : 993px) {
     #toast-container {
       min-width: 8%;
@@ -6123,7 +6138,41 @@ a.waves-effect .waves-ripple {
   will-change: top, opacity; }
   @media only screen and (max-width : 992px) {
     .modal {
-      width: 80%; } }
+      width: 80%; }
+
+  #social-nav {
+    width: 70px;
+  }
+
+  .nav-stuck #social-nav {
+    width: initial;
+  }
+
+  #social-nav li {
+    height: 80px !important;
+  }
+  .nav-stuck #social-nav li {
+    height: 75px !important;
+  }
+
+  #social-nav li a {
+    height: 80px !important;
+    padding: 0 15px;
+    min-width: 100%;
+  }
+
+  .nav-stuck #social-nav li a {
+    height: 75px !important;
+    padding: 0 12px;
+  }
+  
+  #social-nav li img {
+    height: 60px;
+  
+    padding-top: 20px;
+}
+
+      }
   .modal h1, .modal h2, .modal h3, .modal h4 {
     margin-top: 0; }
   .modal .modal-content {

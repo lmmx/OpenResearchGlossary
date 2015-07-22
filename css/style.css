@@ -456,3 +456,8 @@ ul#social-nav {
 #social-nav a {
     text-align: center;
 }
+
+#social-nav img {
+    height: 110px;
+    padding-top: 40px;
+}
