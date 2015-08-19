@@ -17,6 +17,17 @@ function toggleStuck(){
   }
 }
 
+function scrollchecker() {
+	  if (document.body.scrollTop > 150) {
+		      if (!document.body.classList.contains("nav-stuck")) {toggleStuck()}
+		        }
+	    else if (document.body.scrollTop < 50) {
+		         if (document.body.classList.contains("nav-stuck")) {toggleStuck()}
+			   }
+}
+
+document.body.onscroll = scrollchecker
+
 function FilterGlossary(val) {
   
         var gloss_terms = document.querySelectorAll('li[gloss-term], li.declaration, li.resource, ul#oad-listings li');
