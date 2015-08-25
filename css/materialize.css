@@ -2093,6 +2093,9 @@ img.responsive-img, video.responsive-video {
   a.second-page img {
     margin-top: 30px;
   }
+  #glossary-list a.second-page img {
+    margin-top: 115px !important;
+  }
   a.gh-page.second-page img {
     margin-top: 36px !important;
     margin-right: -2px;
@@ -8171,6 +8174,7 @@ select {
 .picker__nav--next:before {
   border-right: 0;
   border-left: 0.75em solid #676767; }
+
 
 button.picker__today:focus, button.picker__clear:focus, button.picker__close:focus {
   background-color: #a1ded8; }

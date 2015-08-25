@@ -37,6 +37,19 @@ a.src-page img, a.wiki-page img {
     border: 10px solid transparent;
 }
 
+#glossary-list a.src-page img, #glossary-list a.wiki-page img {
+    margin-top: 10px;
+}
+
+ul#glossary-list li[gloss-term] {
+    padding-top: 85px;
+    margin-top: -80px;
+}
+
+li a dt {
+    display: inline-block;
+}
+
 a.src-page.alt-icon img {
     height: 39px;
     margin-top: -2px;
@@ -366,7 +379,7 @@ select#gloss-select {
 }
 
 .nav-stuck div#main-container.container {
-    padding-top: 75px;
+    padding-top: 140px;
 }
 
 a#logo-container {
